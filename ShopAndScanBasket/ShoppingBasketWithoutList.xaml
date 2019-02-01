@@ -1,0 +1,33 @@
+﻿<Window x:Class="EasyShopping.ShoppingBasketWithoutList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyShopping"
+        mc:Ignorable="d"
+        Title="ShoppingBasketWithoutList" Height="450" Width="800">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45" />
+            <RowDefinition Height="300" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Varer i vogn" HorizontalAlignment="Left" FontSize="25" Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <Button Name="RemoveFromBasket" Content="Slet vare" HorizontalAlignment="Right" FontSize="25" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+        <ListView Margin="10" Name="GetBasketList" Grid.Row="1" Grid.Column="0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Name="shoppingDone" Content="Gå til Betaling" Click="ShoppingDone_Click"  Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Margin="5"/>
+    </Grid>
+</Window>

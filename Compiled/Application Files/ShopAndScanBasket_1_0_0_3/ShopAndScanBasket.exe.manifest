@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ShopAndScanBasket.exe" version="1.0.0.3" publicKeyToken="a3b411e4bc56fdac" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ShopAndScanBasket" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ShopAndScanBasket.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ShopAndScanBasket.exe" size="60384">
+      <assemblyIdentity name="ShopAndScanBasket" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rHG0kae99QV3Jy26fae97X8FN82ZPpdxHCjZEy3SNXU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ShopAndScanBasket.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DV9HU3H\Jimmy" issuerKeyHash="2f8155ca0dc2d6c45949dacd6a68631962579417" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UcuFb3pIJfR0gaDaF64ZXBpFpISxeh9akqr5wCTjZ8o=</DigestValue></Reference></SignedInfo><SignatureValue>XNNnDNVmHxlWnFXQ2XF6w6smWbKyz3PU5yxB1eFgfWIoFNLzk7XNDNzaEYsMP5xHjv9Qr+GWzCOa6qa1X5SpwZine0TGUCUCJtarZunUxTpERhYZ43oWxEq7vuzVtDSQomNgfxASvAIkJZm88Rr9OIo6s3srWMyLY6wJ7Nl7TdQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uxdIrnfZ9Mzok2JcU1bRkKvyO89yGVqze+DHi71XfuHPNsWZgy8WUIYhVu/n92X8+hUedmCylE4JWSJoZb1aZ+0Hnd4iLvYxGV+3kFzELonrjVQSw1v5y94j+xs5Z84blGbAiDr5t1+VO4+Ut88fOyFbF6FcFXcuE+ZUgCqPQu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ca67e324c0f9aa925a1f7ab184a4451a5c19ae17daa08174f425487a6f85cb51" Description="" Url=""><as:assemblyIdentity name="ShopAndScanBasket.exe" version="1.0.0.3" publicKeyToken="a3b411e4bc56fdac" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DV9HU3H\Jimmy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uTIFH9h4/r+Pw03JTOOQPVzMMs1DG9U6bQZ1S4lQD8E=</DigestValue></Reference></SignedInfo><SignatureValue>mMOQPMfInWvI5VNimvxVbl/NdVh2xvsPI3ldhvBI0JqSAGbuAFaMSrB5yOMThZrmum73zUntt7lLUMvCtnM4b0LLxjw2ydi7Bgyd0D4OHtNOZFMr5g78dBguFHyjxRbHRqY4rJp8nnPCbDLVKuDtWYVfXR5AU3Nwd6SLV3XS/SM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uxdIrnfZ9Mzok2JcU1bRkKvyO89yGVqze+DHi71XfuHPNsWZgy8WUIYhVu/n92X8+hUedmCylE4JWSJoZb1aZ+0Hnd4iLvYxGV+3kFzELonrjVQSw1v5y94j+xs5Z84blGbAiDr5t1+VO4+Ut88fOyFbF6FcFXcuE+ZUgCqPQu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQNef2zu7mBa9C45phqNr4FTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAVgA5AEgAVQAzAEgAXABKAGkAbQBtAHkwHhcNMTkwMTI4MjM1NzU1WhcNMjAwMTI5MDU1NzU1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAVgA5AEgAVQAzAEgAXABKAGkAbQBtAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALsXSK532fTM6JNiXFNW0ZCr8jvPchlas3vgx4u9V37hzzbFmYMvFlCGIVbv5/dl/PoVHnZgspROCVkiaGW9WmftB53eIi72MRlft5BcxC6J641UEsNb+cveI/sbOWfOG5RmwIg6+bdflTuPlLfPHzshWxehXBV3LhPmVIAqj0LtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAnCdl12u5Ygj9wBrfgCwvdCvqhvkBYjDHdpaAI3ltEID/4I4l+ufSu0RzgQ7P4ZjE3452TzS533NBEobJbqyX/2rB0ocAL1d4Vq4Oigv0GemzfNy/Hp/+fl7rBAlKeSwf0DzUMBadmIv7iq1zFU/X7h6Q/sn07D+tysBmqNTzhZk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

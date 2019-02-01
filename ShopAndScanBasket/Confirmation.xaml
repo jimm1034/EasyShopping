@@ -1,0 +1,14 @@
+﻿<Window x:Class="EasyShopping.Confirmation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyShopping"
+        mc:Ignorable="d"
+        Title="Confirmation" Height="450" Width="800">
+    <Grid Margin="300, 150">
+        <TextBlock Text="Er du sikker?" HorizontalAlignment="Center" FontSize="30"/>
+        <Button Content="Ja" Click="Button_Click_True" Height="20" Width="50" HorizontalAlignment="Left"/>
+        <Button Content="Nej" Click="Button_Click_False" Height="20" Width="50" HorizontalAlignment="Right" />
+    </Grid>
+</Window>
